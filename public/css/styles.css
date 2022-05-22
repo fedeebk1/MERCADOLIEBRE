@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.last-visit .titulo {
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 5%;
+    
+}
+
+div article {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-self: center;
+    width: 22%
+    
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+article div.main-article{
+    width: 100%;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    align-items: center;
+   
+}
+
+main section article{
+    background-color: #fff;
+}
+
+main section article img{
+    width: 100%;
+
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+
+article {
+    margin: 10px;
+    margin-block: auto;
+    margin-top: 10px;
+  
+    
+}
+
+
+article div.main-article i.fas.fa-truck {
+    border-top: solid 1px #ebebeb;
+
+
+}
+
+.offers .titulo {
+    text-align: center;
+}
+
+footer {
+    margin:15px;
+    text-align: center;
+}
+
+footer h3 {
+    color: blue;
+
+}
+
+footer h4 {
+    color: rgb(39, 37, 37);
+}
+
+footer p {
+
+    margin: 15px;
+    text-align: center;
+}
+
+@media (max-width: 361px) {
+    .description {
+        display: none;
+ }
+    div article {
+        display: block;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        width: 100%;
+        align-items: center;
+        align-self: center;
+    
+}   
+}
+
+@media (min-width: 769px) {
+
+    div article {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: center;
+        align-self: center;
+        width: 48%
+        
+    }
+
+}
